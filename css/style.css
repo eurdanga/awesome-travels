@@ -3,13 +3,14 @@ body {
 
 		margin: 0;
 		font-family: 'Open Sans', sans-serif;
+		content: center;
 
 }
 
 .claim {
 		display: inline-block;
 		position: relative;
-
+		padding-top: 8px;
 
 }
 
@@ -29,7 +30,7 @@ header {
 
 
 .logo {
-		margin-top: 5px;
+		margin-top: 10px;
 		float: left;
 		display: inline-block;
 		position: relative;
@@ -43,7 +44,7 @@ nav {
 		float: right;
 		padding-right: 80px;
 		width: 30%;
-		margin-top: 5px;
+		margin-top: 8px;
 
 }
 
@@ -60,12 +61,20 @@ ul {
 		position: relative;
 		float: left;
 		font-size: 16px;
-		padding-left: 10px;
+		padding-left: 20px;
 		font-weight: 400;
 		display: inline-block;
 		text-transform: uppercase;
 }
 
+.menu li:hover {
+
+	display: block;
+	color:blue;
+	font-weight: 1000px;
+	font-style: black;
+
+}
 
 .primera {
 
@@ -86,6 +95,8 @@ ul {
 		color: white;
 		font-size: 30px;
 		font-weight: 100px;
+		text-shadow: 2px 2px #386DE8;
+
 
 }
 
@@ -95,16 +106,19 @@ ul {
 		width: 70%;
 		text-align: left;
 		font-size: 16px;
+		border:1px solid #386DE8;
+		color: #386DE8;
 
 }
 
 
 input[type=submit] {
 
-		padding: 15px; background:blue; border:1px solid white;
+		padding: 15px; background: #386DE8; border:1px solid white;
 		cursor:pointer;
 		font-size: 16px;
 		color:white;
+		text-transform: uppercase;
  }
 
 
@@ -130,26 +144,40 @@ input[type=submit] {
 
 }
 
-.box {
 
-	width: 22%;
-	position: relative;
-	float: left;
-	border: 1px solid grey;
-	height: 150px;
+.tercera {
+	width: 100%;
+	vertical-align: middle;
+	margin: 0 auto;
 
 }
 
+.box {
+
+	position: relative;
+	float: left;
+	background-color:solid #8EFFBC;
+	height: 150px;
+	width: 24%;
+	margin: 0 auto;
+	background: url(../img/images.jpg) no-repeat;
+	background-position:center;
+}
+
+
 .box h3 {
 
-	font-size: 12px;
+	font-size: 18px;
 	text-transform: uppercase;	
 	position: top left;
 	margin-top: -10px;
-	margin-left: 6px;
+	padding-left: 10px;
+	padding-bottom: 15px;
 	background-color: white;
 	background-position: top left;
-	width: 50%;
+	width: 100%;
+	text-align: center;
+	color: #386DE8;
 
 }
 
