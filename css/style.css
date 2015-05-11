@@ -182,16 +182,23 @@ input[type=submit] {
 }
 
 .box p {
+	margin-top: 100px;
 	padding: 15px;
-	font-size: 10px;
-	text-transform: uppercase;	
-	font-weight: 100px;
+	font-size: 16px;
+	font-weight: 400px;
+	text-align: center;
+	color: #386DE8;
+
 
 }
 
 
 
+.box h3:hover {
 
+	display: block;
+	text-shadow: 1px 1px grey;
+}
 
 
 
