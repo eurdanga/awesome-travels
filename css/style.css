@@ -136,19 +136,25 @@ input[type=submit] {
 	position: relative;
 	float: left;
 	border: 1px solid grey;
-	padding: 15px;
 	height: 150px;
 
 }
 
 .box h3 {
 
-	font-size: 14px;
+	font-size: 12px;
 	text-transform: uppercase;	
+	position: top left;
+	margin-top: -10px;
+	margin-left: 6px;
+	background-color: white;
+	background-position: top left;
+	width: 50%;
+
 }
 
 .box p {
-
+	padding: 15px;
 	font-size: 10px;
 	text-transform: uppercase;	
 	font-weight: 100px;
