@@ -1,4 +1,14 @@
-
+/*
+Corrige: Christian y Eloi
+faltan mediaqueries/ version responsive (Solo es responsive la section primera, "buscador+img fondo")
+typo en px y no en em o rem
+falta incorporación sass e integración grunt
+no utiliza clearfix (utiliza clase clearfix en html sin después hacer referencia en CSS)
+Syntaxis h1  en el header incorrecta. Ha puesto p en vez de h1.
+Classe .box utilización de background image incorrecta. Cuando es contenido, la imagen tiene que estar en el html
+.box p > utilización de margin exagerada para cuadrar y no pisar imagen.
+fontweight= no en px.
+*/
 body {
 
 		margin: 0;
@@ -45,6 +55,7 @@ nav {
 		padding-right: 80px;
 		width: 30%;
 		margin-top: 8px;
+		border:1px solid red;
 
 }
 
@@ -199,6 +210,56 @@ input[type=submit] {
 	display: block;
 	text-shadow: 1px 1px grey;
 }
+
+/* CORRECCIÓN*/
+.menu-mobile{
+	display:none;
+}
+
+@media screen and (max-width: 800px){
+.box{
+	width:45%;
+}
+.claim{
+	display:none;
+	}
+nav{
+	width:60%;
+}
+}
+
+@media screen and (max-width: 400px){
+.box{
+	width:100%;
+}
+nav{
+	width:50%;
+}
+nav .menu {
+	display:none;
+}
+nav .menu-mobile{
+	display:block;
+	height:30px;
+	width:40px;
+
+}
+.menu-mobile li{
+	display:none;
+}
+ul .menu-mobile:hover li{
+	display:block;
+}
+}
+
+
+
+
+
+
+
+
+
 
 
 
